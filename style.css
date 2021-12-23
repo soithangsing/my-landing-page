@@ -1,3 +1,82 @@
 body {
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
 }
+
+/* Header portion */
+
+.header,
+.footer {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero-secondary-text,
+.header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header-content-container {
+    display: flex;
+}
+
+/* Header portion Ends */
+
+
+/* Information Section */
+
+.information-header {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+/* Information Section End */
+
+
+/* Inspirational Quote Box */
+
+.inspirational-quote {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+/* Inspirational Quote Box End*/
+
+button {
+    background-color: #3882F6;
+}
+
+/* Footer */
+
+.footer {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+/* Footer Ends*/
