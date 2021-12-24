@@ -40,6 +40,13 @@ ul {
     display: flex;
 }
 
+a {
+    text-decoration: none;
+}
+
+.header ul {
+    gap: 16px;
+}
 /* Header portion Ends */
 
 
