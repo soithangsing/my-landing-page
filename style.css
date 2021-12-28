@@ -39,6 +39,13 @@ ul {
 .header-content-container {
     display: flex;
     margin-bottom: 120px;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+
+.header-content-text-item {
+    max-width: 500px;
 }
 
 a {
@@ -60,6 +67,7 @@ a {
 .header {
     padding-left: 300px;
     padding-right: 300px;
+    padding-bottom: 80px;
 }
 
 .header button {
@@ -79,10 +87,38 @@ a {
 
 /* Information Section */
 
+.info-box {
+    text-align: center;
+    padding: 24px;
+    margin-bottom: 72px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
 .information-header {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    width: 100%;
+}
+
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+.feature-list-item {
+    max-width: 300px;
+}
+
+.feature-list-item img {
+    border:solid;
+    border-radius: 14px;
+    border-color: #3882F6;
+    margin-bottom: 16px;
 }
 
 /* Information Section End */
@@ -92,6 +128,10 @@ a {
 
 .inspirational-quote {
     background-color: #E5E7EB;
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .quote-text {
@@ -101,7 +141,50 @@ a {
     color: #1F2937;
 }
 
+.quote-source-container {
+    text-align: right;
+}
+
 /* Inspirational Quote Box End*/
+
+/* Call-to-Action Section */
+
+.call-to-action {
+    padding: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.call-to-action-box {
+    color: #E5E7EB;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 48px;
+    border-radius: 12px;
+}
+
+.call-to-action-box button {
+    color:#F9FAF8;
+    padding: 16px;
+    border: solid;
+    border-color: #F9FAF8;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.call-to-action-text {
+    color: #F9FAF8;
+    font-size: 18px;
+    padding: 0;
+}
+/* Call-to-Action Section End */
 
 button {
     background-color: #3882F6;
@@ -112,6 +195,8 @@ button {
 .footer {
     font-size: 18px;
     color: #F9FAF8;
+    text-align: center;
+    padding: 12px;
 }
 
 /* Footer Ends*/
