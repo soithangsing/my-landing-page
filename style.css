@@ -38,6 +38,7 @@ ul {
 
 .header-content-container {
     display: flex;
+    margin-bottom: 120px;
 }
 
 a {
@@ -45,7 +46,33 @@ a {
 }
 
 .header ul {
-    gap: 16px;
+    gap: 32px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    margin-top: 18px;
+}
+
+.header {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.header button {
+    font-size: 18px;
+    border-radius: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 32px;
+    padding-left: 32px;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: solid;
+    border-color: #3882F6;
 }
 /* Header portion Ends */
 
@@ -71,6 +98,7 @@ a {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
+    color: #1F2937;
 }
 
 /* Inspirational Quote Box End*/
