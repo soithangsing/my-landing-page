@@ -48,6 +48,11 @@ ul {
     max-width: 500px;
 }
 
+.header-content-image img{
+    height: 300px;
+    width: 500px;
+}
+
 a {
     text-decoration: none;
 }
@@ -119,6 +124,8 @@ a {
     border-radius: 14px;
     border-color: #3882F6;
     margin-bottom: 16px;
+    height: 250px;
+    width: 250px;
 }
 
 /* Information Section End */
@@ -200,3 +207,112 @@ button {
 }
 
 /* Footer Ends*/
+
+@media (max-width: 650px) {
+    body{
+        font-size: 14px;
+    }
+
+    .header-content-container {
+        flex-direction: column;
+        width: 100%;
+        gap: 1.5rem;
+        align-items: stretch;
+        justify-content: stretch;
+    }
+
+    .header{
+        padding: 1rem;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    ul{
+        flex-direction: column;
+    }
+
+    .hero{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero ul{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .logo{
+        font-size: 18px;
+    }
+
+    .hero-main-text{
+        font-size: 26px;
+    }
+
+    .hero-secondary-text,
+    .header{
+        font-size: 16px;
+    }
+
+    .header-content-container button{
+        font-size: 16px;
+        padding: 0.8rem;
+    }
+
+    .header-content-image img{
+        height: 250px;
+        width: 300px;
+    }
+
+    .content-parent-container{
+        flex: auto;
+    }
+
+    /* Second section */
+
+    .info-box{
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .information-header{
+        display: flex;
+        font-size: 26px;
+    }
+
+    .feature-list{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .feature-list-item img {
+        height: 180px;
+        width: 180px;
+    }
+
+    /* 3rd Section */
+
+    .inspirational-quote{
+        padding: 1rem;
+    }
+
+    .quote-text{
+        font-size: 22px;
+    }
+
+    /* 4th Section */
+
+    .call-to-action{
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .call-to-action-box{
+        padding: 3rem;
+        flex-direction: column;
+        text-align: center;
+    }
+}
